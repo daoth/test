@@ -27,3 +27,9 @@ Tốt nhất nên xài revert
 git log
 => lấy id ngay vị trí vừa commit để phục hồi tại vị trí đó
 git revert 4c717c31d9a9dd5640438affa7dc4986d5eddbd5
+
+Liệt kê branch
+git remote show origin
+
+Trả về danh sách commit mới nhất của từng branch
+git ls-remote --heads origin
