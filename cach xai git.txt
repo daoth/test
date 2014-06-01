@@ -1,0 +1,29 @@
+Thêm remote url
+git remote add origin https://github.com/daocoder/test.git
+
+Commit lên remote url
+git push -u origin master
+hay
+git push -u origin fixbug
+
+Lấy file từ remote url
+git pull origin master
+
+Thêm branch
+git checkout -b branch_name
+
+Xóa branch
+git branch -d branch_name
+
+Chuyển branch
+git checkout branch_name
+
+Reset lại vị trí commit-id, lệnh này có thể làm mất file vĩnh viễn
+git reset --hard HEAD~1		//phục hồi ngay vị trí đầu
+hay
+git reset --hard 41cf5d519225316247f37e97f3b53f3786e0c14e
+
+Tốt nhất nên xài revert
+git log
+=> lấy id ngay vị trí vừa commit để phục hồi tại vị trí đó
+git revert 4c717c31d9a9dd5640438affa7dc4986d5eddbd5
