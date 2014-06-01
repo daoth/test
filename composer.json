@@ -1,0 +1,29 @@
+{
+	"repositories": [
+		{
+			"name": "skeleton-application",
+			"type": "vcs",
+			"url": "D:/www/vhost_auto/dev/repo.mycode/git/ZendSkeletonApplication"
+		},
+		{
+			"name": "simpleLib",
+			"type": "vcs",
+			"url": "D:/www/vhost_auto/dev/repo.mycode/git/simpleLib"
+		},
+		{
+			"type": "composer",
+			"url": "http://repo.mycode.dev"
+		}
+		
+	],
+	"require": {
+		"zendframework/skeleton-application": "dev-master",
+		"zendframework/zendxml": "1.0.0",
+		"doctrine/annotations":"v1.1.2",
+		"ircmaxell/random-lib":"1.0",
+		"zendframework/zendpdf":"2.0.2",
+        "ocramius/proxy-manager": "0.5.*",
+		"zendframework/zendservice-recaptcha":"2.0.1",
+		"mycode/simpleLib": "dev-master"
+	}
+}
