@@ -39,3 +39,14 @@ git branch -r
 
 Trả về danh sách commit mới nhất của từng branch
 git ls-remote --heads origin
+
+Pull overwrite local
+git fetch origin
+git reset --hard origin/master
+
+Show diff:
+git diff --name-only --diff-filter=A HEAD
+
+fatal: cannot do a partial commit during a merge
+git commit -i myfile.php
+The -i basically tells it to stage additional files before committing
